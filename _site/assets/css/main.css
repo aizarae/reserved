@@ -1848,7 +1848,7 @@
 	}
 
 		a:hover {
-			color: #47D3E5;
+			color: #6b804F;
 		}
 
 	strong, b {
@@ -1914,21 +1914,22 @@
 		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		border: 0;
 		cursor: pointer;
-		display: inline-block;
+		display:inline-block;
 		font-weight: 400;
 		letter-spacing: 0.125em;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
-		font-size: 0.75rem;
-		max-width: 20rem;
+		font-size: 0.85rem;
+		max-width: 40rem;
 		height: 3.75em;
 		line-height: 3.75em;
 		border-radius: 3.75em;
 		padding: 0 2.5em;
 		text-overflow: ellipsis;
 		overflow: hidden;
+		align-items: center;
 	}
 
 		input[type="submit"].icon:before,
@@ -2012,8 +2013,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			box-shadow: inset 0 0 0 1px #6b804F;
+			color: #6b804F !important;
 		}
 
 		input[type="submit"]:active,
@@ -2041,15 +2042,16 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #47D3E5;
+				background-color: #6b804F;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			button.special:active,
+			
 			.button.special:active {
-				background-color: #1ebdd1;
+				background-color: #6b804F;
 			}
 
 /* Form */
@@ -2334,8 +2336,8 @@
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #47D3E5;
-			box-shadow: 0 0 0 1px #47D3E5;
+			border-color: #6b804F;
+			box-shadow: 0 0 0 1px #6b804F;
 		}
 
 	.select-wrapper:before {
@@ -2361,8 +2363,8 @@
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #47D3E5;
-		box-shadow: 0 0 0 1px #47D3E5;
+		border-color: #6b804F;
+		box-shadow: 0 0 0 1px #6b804F;
 	}
 
 	::-webkit-input-placeholder {
@@ -2436,14 +2438,14 @@
 	}
 
 	a.icon.style2:hover:before {
-		box-shadow: inset 0 0 0 1px #47D3E5;
-		color: #47D3E5;
+		box-shadow: inset 0 0 0 1px #6b804F;
+		color: #6b804F ;
 	}
 
 	a.icon.style2:active:before {
 		background-color: rgba(71, 211, 229, 0.1);
-		box-shadow: inset 0 0 0 1px #47D3E5;
-		color: #47D3E5;
+		box-shadow: inset 0 0 0 1px #6b804F;
+		color: #6b804F;
 	}
 
 /* Image */
@@ -6231,8 +6233,8 @@
 			.gallery.style1 button:active,
 			.gallery.style1 .button:active {
 				background-color: rgba(71, 211, 229, 0.2);
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				box-shadow: inset 0 0 0 1px #6b804F;
+				color: #6b804F !important;
 			}
 
 			.gallery.style1 input[type="submit"].special,
@@ -6250,7 +6252,7 @@
 				.gallery.style1 input[type="button"].special:hover,
 				.gallery.style1 button.special:hover,
 				.gallery.style1 .button.special:hover {
-					background-color: #47D3E5;
+					background-color: #6b804F;
 				}
 
 				.gallery.style1 input[type="submit"].special:active,
@@ -6258,7 +6260,7 @@
 				.gallery.style1 input[type="button"].special:active,
 				.gallery.style1 button.special:active,
 				.gallery.style1 .button.special:active {
-					background-color: #1ebdd1;
+					background-color: #6b804F;
 				}
 
 		.gallery.style1 > .forward, .gallery.style1 > .backward {
@@ -6551,8 +6553,8 @@
 			.gallery.style2 input[type="button"]:hover,
 			.gallery.style2 button:hover,
 			.gallery.style2 .button:hover {
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				box-shadow: inset 0 0 0 1px #6b804F;
+				color: #6b804F !important;
 			}
 
 			.gallery.style2 input[type="submit"]:active,
@@ -6561,8 +6563,8 @@
 			.gallery.style2 button:active,
 			.gallery.style2 .button:active {
 				background-color: rgba(71, 211, 229, 0.2);
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				box-shadow: inset 0 0 0 1px #6b804F;
+				color: #6b804F !important;
 			}
 
 			.gallery.style2 input[type="submit"].special,
@@ -6580,7 +6582,7 @@
 				.gallery.style2 input[type="button"].special:hover,
 				.gallery.style2 button.special:hover,
 				.gallery.style2 .button.special:hover {
-					background-color: #47D3E5;
+					background-color: #6b804F;
 				}
 
 				.gallery.style2 input[type="submit"].special:active,
@@ -6588,7 +6590,7 @@
 				.gallery.style2 input[type="button"].special:active,
 				.gallery.style2 button.special:active,
 				.gallery.style2 .button.special:active {
-					background-color: #1ebdd1;
+					background-color: #6b804F;
 				}
 
 		.gallery.style2 > .forward, .gallery.style2 > .backward {

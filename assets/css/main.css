@@ -2049,6 +2049,7 @@
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			button.special:active,
+			
 			.button.special:active {
 				background-color: #6b804F;
 			}
